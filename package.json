@@ -2,14 +2,15 @@
   "name": "bottelegram",
   "version": "1.0.0",
   "description": "notify prices,market stadistical data for Litcoin",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot"
+    "start": "node index"
   },
   "author": "neetogami",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "request": "^2.85.0",
     "telegram-node-bot": "^4.0.5"
   }
